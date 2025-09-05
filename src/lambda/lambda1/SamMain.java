@@ -8,11 +8,11 @@ public class SamMain {
 		};
 		sameInterface.run();
 
-		NotSamInterface notSamInterface = () -> {
-			System.out.println("not sam");
-		};
+//		NotSamInterface notSamInterface = () -> {
+//			System.out.println("not sam");
+//		};
 
-		notSamInterface.go();
-		notSamInterface.run();
+//		notSamInterface.go();
+//		notSamInterface.run();
 	}
 }
